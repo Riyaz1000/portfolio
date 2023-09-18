@@ -453,21 +453,19 @@ footer a {
 
 
 @media only screen and (max-width: 600px) {
-    
-    .hero  ul li {
-        display:inline-block;
+
+    .hero ul li {
+        display: inline-block;
         height: 30px;
         width: 35px;
-        margin:auto;
-    
+        margin: auto;
+
     }
+
     .hero-icons {
         margin: 15px 0px;
         width: auto;
     }
-    
-    
-    
 
 
 
@@ -476,7 +474,10 @@ footer a {
 
 
 
-    .hero .hero-icons{
+
+
+
+    .hero .hero-icons {
         margin: 20px 40px;
     }
 
