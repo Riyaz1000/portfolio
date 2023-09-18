@@ -453,22 +453,31 @@ footer a {
 
 
 @media only screen and (max-width: 600px) {
-    hero {
-        flex-direction: column;
+    
+    .hero  ul li {
+        display:inline-block;
+        height: 30px;
+        width: 35px;
+        margin:auto;
+    
     }
-
-    hero>* {
-        margin-bottom: 10px;
+    .hero-icons {
+        margin: 15px 0px;
+        width: auto;
     }
-
-    .hero {
-        width: fit-content;
-    }
-
+    
+    
+    
 
 
-    .detail {
-        margin: 5px 10px;
+
+
+
+
+
+
+    .hero .hero-icons{
+        margin: 20px 40px;
     }
 
     .contact-section {
