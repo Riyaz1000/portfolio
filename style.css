@@ -74,10 +74,11 @@ span {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 10px ;
     display: inline-block;
     border-radius: 5px;
     padding: 4px;
+    gap: 10px;
 
 }
 
@@ -202,7 +203,8 @@ span {
     margin: 10px 0;
     display: inline-block;
     border-radius: 5px;
-    padding: 4px;
+    padding: 6px;
+    margin-left: 9px;
 }
 
 .about-button:hover {
@@ -383,6 +385,7 @@ span {
     padding: 5px 10px;
     outline: none;
     width: 350px;
+    
     background-color: #c4c4c4;
     border-radius: 6px;
     margin: 5px 10px;
@@ -443,6 +446,8 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
+    /* width: 100%; */
+    
 }
 
 footer a {
@@ -454,20 +459,66 @@ footer a {
 
 @media only screen and (max-width: 600px) {
 
-    .hero ul li {
-        display: inline-block;
-        height: 30px;
-        width: 35px;
-        margin: auto;
-
-    }
-
-    .hero-icons {
-        margin: 15px 0px;
-        width: auto;
-    }
+   
 
 
+   *{
+    flex-direction: column;
+
+   }
+
+   *{
+    margin-bottom: 10px;  
+
+   }
+   .hero {
+    flex-direction: colum;
+    padding: 58px;
+   }
+   .hero ul li {
+    display: inline-flex;
+   }
+   .hero .detail {
+    margin-left: 29px;
+   }
+
+   .about-section-1 {
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+   }
+   .about-section-desc {
+    margin-top: 20px;
+   }
+   .work-section .work-box-items {
+    flex-direction: column;
+    margin: 20px 0px;
+    width: 100%;
+    margin-left: 30px;
+   }
+   .work-section {
+    width: 100%;
+   }
+
+   /* .contact-section form>div>input, textarea {
+
+    width: 100%;
+   }
+
+   .contact-section {
+    width: 100%;
+    margin-right: 80px;
+   } */
+
+   .contact-section {
+    /* width:460px; */
+    width: 463px;
+    background-color: blue;
+   }
+   footer {
+    background-color:yellow;
+    width: 543px;
+   }
 
 
 
@@ -476,42 +527,9 @@ footer a {
 
 
 
+   
+ 
+    
 
-    .hero .hero-icons {
-        margin: 20px 40px;
-    }
-
-    .contact-section {
-        width: 100%;
-
-    }
-
-    * {
-        width: 100%;
-    }
-
-    footer {
-        width: 100%;
-        display: inline;
-    }
-
-    .hero-icons {
-        display: inline-flex;
-        margin: 5px 0
-    }
-
-    .detail a {
-        width: 92px;
-        margin: 30px 0;
-    }
-
-    .right-side-image-1 {
-        align-items: flex-end;
-    }
-
-    .work-section {
-        display: flex;
-        width: fit-content;
-    }
 
 }
